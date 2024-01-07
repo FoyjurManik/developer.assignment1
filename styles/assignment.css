@@ -1,0 +1,28 @@
+.banner-title{
+    color: #0db9abda;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 177px 530px 0px ;
+
+}
+.banner-content{
+    color: #0b18d3fd;
+     text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    padding: 0px 344px 177px;
+
+}
+.header{
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+}
+
