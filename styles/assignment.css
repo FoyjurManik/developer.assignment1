@@ -1,3 +1,4 @@
+/*header section styles*/
 .banner-title{
     color: #0db9abda;
 
@@ -26,3 +27,44 @@
     background-repeat: no-repeat;
 }
 
+/*main section styles*/
+
+/*discount section stlyes*/
+.discount-title{
+    color: #F00;
+    text-align: center;
+    font-family: in;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0px 470px 0px;
+}
+.discount-description{
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 0px 460px 0px;
+}
+.product-categories{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0px 400px 0px;
+}
+.h-n-y-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 0px 350px 6458px;
+}
