@@ -98,8 +98,14 @@ line-height: 30px; /* 166.667% */
 padding: 0px 140px 0px 150px;
 }
 .btn-type{
-    display: inline-block;
-    
+   
+    color: #FFF;
+background-color: transparent;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+padding: 0px 10px 0px 150px  ;
+display: inline-block;
     
 
 
