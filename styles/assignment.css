@@ -1,6 +1,6 @@
 /*header section styles*/
 .banner-title{
-    color: #0db9abda;
+    color: #FFF;
 
     text-align: center;
     font-family: Merriweather;
@@ -12,7 +12,7 @@
 
 }
 .banner-content{
-    color: #0b18d3fd;
+    color: #FFF;
      text-align: center;
     font-family: Merriweather;
     font-size: 72px;
@@ -23,7 +23,8 @@
 
 }
 .header{
-    background-image: url('../images/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
+   
     background-repeat: no-repeat;
 }
 
@@ -71,7 +72,7 @@ padding: 0px 460px 0px;
 .main{
     background-image: url('../images/Vectorrr.png');
     background-repeat: no-repeat;
-    padding: 0px 0px 5500px;
+    padding: 0px 0px 0px;
     display: flex;
     align-items: center;
 }
@@ -104,9 +105,32 @@ background-color: transparent;
 text-align: center;
 font-family: Inter;
 font-size: 20px;
-padding: 0px 10px 0px 150px  ;
+margin: 0px 10px 0px 150px  ;
 display: inline-block;
+border: 0px;
+}
+.location{
+    text-align: center;
+    padding: 50px 380px 214px;
+    background: #FFF8F3;
+
     
+}
+.text-coloue{
+    color: #F00;
 
-
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 175% */
+text-transform: capitalize;
+}
+.btn-type1{
+    color: #FFF;
+    border-radius: 1px;
+    border-color: #F00;
+background: #F00;
+margin-top: 20px;
 }
