@@ -70,7 +70,7 @@ padding: 0px 460px 0px;
     padding: 0px 350px 120px;
 }
 .main{
-    background-image: url('../images/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     padding: 0px 0px 0px;
     display: flex;
@@ -110,10 +110,13 @@ display: inline-block;
 border: 0px;
 }
 .location{
+    margin: 120px auto;
     text-align: center;
-    padding: 50px 380px 214px;
-    background: #FFF8F3;
-
+    border-radius: 15px;
+    background-color: rgba(255, 0, 0, 0.05);
+    
+    padding: 100px 380px 180px;
+    
     
 }
 .text-coloue{
@@ -133,4 +136,58 @@ text-transform: capitalize;
     border-color: #F00;
 background: #F00;
 margin-top: 20px;
+}
+/*offer related styles*/
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inter;
+    margin-bottom: 120px;
+}
+.offer-container{
+    max-width: 380px;
+}
+.offer-heading{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 0px;
+    
+}
+.offer-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+.offer-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+.offer-img{
+    height: 360px;
+    width: 360px;
+    border-radius: 460px 460px;
+    outline: 12px solid red;
+    outline-offset: 15px;
+   
+}
+.offer-ney-year{
+    max-width: 270px;
+    font-family: Inter;
+}
+.offer-year{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.offer-descripion1{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 30px;
 }
